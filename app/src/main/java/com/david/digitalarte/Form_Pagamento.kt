@@ -29,9 +29,7 @@ class Form_Pagamento:Fragment() {
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
             super.onViewCreated(view, savedInstanceState)
 
-            binding.imageComprar.setOnClickListener {
-                findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-            }
+           //
         }
 
         override fun onDestroyView() {

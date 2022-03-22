@@ -40,7 +40,19 @@
         tools:layout="@layout/fragment_third">
 
         <action
-            android:id="@+id/action_fi"
+            android:id="@+id/third_fragment_to_fourth_fragment"
+            app:destination="@id/fourth_fragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fourth_fragment"
+        android:name="com.david.digitalarte.Form_Perfil"
+        android:label="Pagamanto"
+        tools:layout="@layout/fragment_fourth">
+
+        <action
+            android:id="@+id/fourth_fragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>

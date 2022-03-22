@@ -33,7 +33,7 @@ class Form_Perfil : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.imageView3.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+            findNavController().navigate(R.id.third_fragment_to_fourth_fragment)
         }
     }
 
