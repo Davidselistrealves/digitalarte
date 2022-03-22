@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154013523477",
+    "project_id": "digitalarte-ba676",
+    "storage_bucket": "digitalarte-ba676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154013523477:android:621f95f4d35a52cd6f781c",
+        "android_client_info": {
+          "package_name": "com.david.digitalarte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154013523477-bnsd71j112k0rpv85freuo0hbinmvg95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDimj05kgmBHJbiVuhaPKlCdUczEd1EliU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154013523477-bnsd71j112k0rpv85freuo0hbinmvg95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

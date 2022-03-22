@@ -56,40 +56,41 @@
 
     <ImageView
         android:id="@+id/imageview4"
-        android:layout_width="182dp"
-        android:layout_height="133dp"
+        android:layout_width="187dp"
+        android:layout_height="138dp"
         android:layout_marginStart="192dp"
         android:layout_marginTop="140dp"
-        android:background="@color/white"
         android:adjustViewBounds="true"
+        android:background="@color/white"
 
-        android:src="@drawable/arte2"
+        android:src="@drawable/arte7"
+
         app:layout_constraintStart_toStartOf="@id/imageView3"
         app:layout_constraintTop_toTopOf="@id/nome_da_pessoa" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="147dp"
-        android:layout_height="150dp"
+
+        android:layout_width="172dp"
+        android:layout_height="188dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="356dp"
-        android:background="@color/white"
-        android:src="@drawable/arte3"
+        android:layout_marginTop="328dp"
+
+        android:src="@drawable/arte6"
+
 
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/nome_da_pessoa"
-         />
+        app:layout_constraintTop_toTopOf="@id/nome_da_pessoa" />
 
     <ImageView
-        android:layout_width="172dp"
-        android:layout_height="148dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="356dp"
-        android:background="@color/white"
-        android:src="@drawable/arte4"
+        android:layout_width="193dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="328dp"
+
+        android:src="@drawable/arte5"
         app:layout_constraintStart_toStartOf="@id/imageView5"
-        app:layout_constraintTop_toTopOf="@id/nome_da_pessoa"
-        />
+        app:layout_constraintTop_toTopOf="@id/nome_da_pessoa" />
 
     <TextView
         android:layout_width="wrap_content"

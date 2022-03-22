@@ -25,19 +25,24 @@
         />
 
     //criei um container para colocar os editaveis dentro
+
+    //campo editável para email
+
     <View
         android:id="@+id/container_components"
         style="@style/ContainerComponents"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="371dp"
+        android:layout_height="359dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        />
-    //campo editável para email
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
     <EditText
         android:id="@+id/edit_email"
         style="@style/Edit_Text"
         android:hint="Email"
-
         android:drawableRight="@drawable/ic_email"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
@@ -65,6 +70,7 @@
 
         />
     // não consegui colocar botão , então achei essa opção na documentação
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botao"
         style="@style/botao"
@@ -114,4 +120,35 @@
 
         app:layout_constraintTop_toBottomOf="@+id/progressbar"
         app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.gms.common.SignInButton
+
+        android:id="@+id/signInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="121dp"
+        app:layout_constraintEnd_toEndOf="@+id/container_components"
+        app:layout_constraintStart_toStartOf="@+id/container_components"
+        app:layout_constraintTop_toTopOf="@+id/container_components"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:text="@string/ou"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/botao"
+        app:layout_constraintVertical_bias="0.018"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

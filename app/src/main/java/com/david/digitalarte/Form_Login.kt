@@ -1,5 +1,6 @@
 package com.david.digitalarte
 
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -7,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.david.digitalarte.databinding.FragmentFirstBinding
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -18,6 +20,9 @@ class Form_Login : Fragment() {
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
+    private lateinit var googleSignInClient: GoogleSignInClient
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -32,11 +37,15 @@ class Form_Login : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
+
+        //botao que vai para tela cadastro
         binding.textTelaCadastro.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
-        //botão que vai para tela de cadastro
+        //botão de login
         binding.botao.setOnClickListener {
+
             findNavController().navigate(R.id.FirstFragment_to_third_fragment)
         }
     }
