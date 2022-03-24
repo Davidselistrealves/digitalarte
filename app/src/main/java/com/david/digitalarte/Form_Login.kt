@@ -36,7 +36,7 @@ class Form_Login : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
         //botão que vai para tela de cadastro
-        binding.botao.setOnClickListener {
+        binding.botaoLogin.setOnClickListener {
             findNavController().navigate(R.id.FirstFragment_to_third_fragment)
         }
     }

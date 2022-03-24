@@ -46,7 +46,7 @@
         android:id="@+id/title_cadastrese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NUCLEART"
+        android:text="DIGITAL ART"
         android:textColor="@color/white"
         android:textSize="36dp"
         android:textStyle="normal"
@@ -114,6 +114,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#5A7A98"
         android:text="CADASTRAR"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
 </androidx.constraintlayout.widget.ConstraintLayout>

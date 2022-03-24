@@ -64,7 +64,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="DIGITAL ART"
         android:textColor="#FFFFFF"
         android:textSize="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.163"
-        tools:text="NUCLEART" />
+        tools:text="DIGITAL ART" />
 
     <Button
         android:id="@+id/botaoLogin"
