@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/third_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282626"
+    tools:context=".Form_Perfil">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="411dp"
+        android:layout_height="219dp"
+        android:background="#C4C4C4"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/nome_da_pessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/nome_pessoa"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.223"
+        tools:text="matheusJr" />
+
+    <TextView
+        android:id="@+id/exp_da_pessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="36dp"
+        android:hint="@string/nome_pessoa"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.475"
+        tools:text="3+ anos" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ti_default_1"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="379dp"
+        android:layout_height="333dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="148dp"
+        android:background="@color/white"
+        android:src="@drawable/arte4"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="16dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:src="@drawable/arte1"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:layout_editor_absoluteY="402dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/white"
+        android:src="@drawable/arte3"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <ImageView
+        android:id="@+id/imageview4"
+        android:layout_width="182dp"
+        android:layout_height="133dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+
+        android:src="@drawable/arte2"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="403dp" /><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+    />
+
+
+
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>
